@@ -1,0 +1,33 @@
+.sidebarOptions {
+    display: flex;
+    flex-direction: column;
+}
+/* 컬럼 세로로 플렉스해줄꺼다 */
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarOption:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.sidebarOption > img {
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.sidebarOption > p {
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+    color: #ba2727;
+    font-size: medium;
+    margin-left: 10px;
+}

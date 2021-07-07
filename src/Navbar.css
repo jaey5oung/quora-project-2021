@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* navbar 의 아이콘들을 옆으로 균일하게 지정해줄꺼다 space-between */
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* position sticky를하면 고정이고 이걸 탑 0 맨위에 고정시켜서 다른애가 움직이더라도 z-index를 통해 안움직이게 막을것이다 */
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.qHeader_logo > img {
+    margin-right: 20px;
+    height: 60px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+/* object-fit : 부모 컨테이너에 맞게 크기를 줄여준다 즉 Navbar에맞게 크기를 줄인다 */
+
+.qHeader_icons {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.qHeader_icon > .MuiSvgIcon-root {
+    color: #ba2722;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+/* q header 안에 svgicon의 기본적인 속성을 정의해주겟다 */
+
+.qHeader_icon > .MuiSvgIcon-root:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: #ba2722;
+    transform: scale(1.2);
+}
+/* 마우스를 갖다댔을때 :hover 쓴다 transform scale은 1.1배커지게해준다 */
+
+.qHeader_input {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    border: 1px solid #ba2722;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* 여기서 width 400px는 인풋을 감싸고있는 컨테이너의 크기이다 */
+
+.qHeader_input > input {
+    background-color: transparent;
+    /* 컬러를 transparent 는 투명한 */
+    outline: none;
+    width: 400px;
+    border: none;
+    color: rgb(49, 49, 49);
+}
+
+/* 인풋컨테이너에있는 인풋창을 수정하는것  */
+
+.qHeader_input > .MuiSvgIcon-root {
+    color: #ba2722;
+}
+/* 아까와 같이 머트리얼 ui icon만 바꿔주고싶을땐 MuiSvgIcons-root */
+
+.qHeader_Rem {
+    display: flex;
+    align-items: center;
+}
+/* 아바타 부분의 컨테이너이다 */
+
+.qHeader_Rem > .qHeader_avater {
+    cursor: pointer;
+}
+
+.qHeader_Rem > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #ba2722;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.qHeader_Rem > .MuiButton-root {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    text-transform: inherit;
+    background-color: #ba2722;
+    border-radius: 10px;
+}
+
+.qHeader_Rem > .MuiButton-root:hover {
+    color: #ba2722;
+    background-color: white;
+}
