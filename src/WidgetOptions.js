@@ -5,7 +5,7 @@ import "./WidgetOptions.css";
 function WidgetOptions() {
     return (
         <div className="widgetOptions">
-            <div className="widget_content">
+            {/* <div className="widget_content">
                 <img src="https://w7.pngwing.com/pngs/119/847/png-transparent-nike-logo-t-shirt-nike-swoosh-adidas-nike-logo-angle-triangle-football-boot-thumbnail.png" alt="" />
                 <div className="widget_contentTitle">
                     <h5>Nike</h5>
@@ -39,7 +39,7 @@ function WidgetOptions() {
                     <h5>Puma</h5>
                     <p>푸마 광고입니다</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

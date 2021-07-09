@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userReducer from "../features/userSlice";
+import questionReducer from "../features/questionSlice";
 
 //configureStore는 createStore를 API화하여 쉽게 사용하는 것 툴킷화 시킨것
 export const store = configureStore({
     reducer: {
         user: userReducer,
+        question: questionReducer,
     },
 });
 

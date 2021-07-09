@@ -22,7 +22,7 @@
 
 .quoraBox_info > h5 {
     color: #ba2727;
-    font-weight: 300;
+    font-weight: 700;
     margin-left: 10px;
 }
 
@@ -31,12 +31,13 @@
 .quoraBox_quora {
     display: flex;
     margin-top: 8px;
+    margin-left: 10px;
 }
 
 /*밑에 부분 보여지는거 설정*/
 .quoraBox_quora > p {
     color: black;
-    font-weight: bold;
+    font-weight: 400;
     font-size: large;
 }
 

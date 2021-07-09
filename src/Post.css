@@ -40,8 +40,9 @@
 
 .post_body > .post_question {
     margin-top: 10px;
-    font-weight: bold;
+    font-weight: 400;
     margin-bottom: 10px;
+    margin-left:10px;
     cursor: pointer;
     display: flex;
 }

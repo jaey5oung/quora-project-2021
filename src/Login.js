@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./Login.css";
 import { auth, provider } from "./firebase";
 
+
 function Login() {
     
     const [email, setEmail] = useState("");
@@ -15,7 +16,8 @@ function Login() {
         e.preventDefault();
         auth.signInWithEmailAndPassword(email, password)
             .then((auth) => {
-                console.log(auth);
+               
+                console.log(11,auth);
             })
             .catch((e) => alert(e.massage));
 
