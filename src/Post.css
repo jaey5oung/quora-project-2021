@@ -40,9 +40,9 @@
 
 .post_body > .post_question {
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 10px;
-    margin-left:10px;
+    margin-left:2px;
     cursor: pointer;
     display: flex;
 }
@@ -50,6 +50,7 @@
 .post_body > .post_question > p:hover {
     text-decoration: underline;
 }
+
 
 .post_body > img {
     object-fit: contain;
@@ -134,8 +135,8 @@
 }
 
 .modal_question > h1 {
-    color: #8f1f1b;
-    font-weight: 600;
+    color: #ba2727;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -151,7 +152,7 @@
 
 .modal_answer {
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
     flex: 1;
 }
 
@@ -163,7 +164,7 @@
     color: black;
 }
 
-.modal_buttons {
+.modal_button {
     display: flex;
     align-items: center;
     margin-right: -20px;
@@ -171,27 +172,27 @@
     border-top: 1px solid lightgray;
 }
 
-.modal_buttons > .can {
+.modal_button > .canButton {
     margin-left: auto;
     border: none;
     margin-top: 5px;
     outline: none;
-    color: gray;
+    color: white;
     font-weight: 500;
     padding: 10px;
-    margin-right: 10px;
-    border-radius: 33px;
+    margin-right: 16px;
+  
     cursor: pointer;
 }
-.modal_buttons > .add {
+.modal_button > .addButton {
     border: none;
     outline: none;
     margin-top: 5px;
-    background-color: rgb(0, 64, 255);
+    background-color:#ba2727;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px;
     margin-right: 10px;
-    border-radius: 33px;
+    
     cursor: pointer;
 }
